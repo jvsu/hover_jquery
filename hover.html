@@ -1,0 +1,47 @@
+<html>
+<head>
+	<title>Techonlogy Founders</title>
+	<link rel='stylesheet' type='text/css' href='hover.css'>
+	<script type="text/javascript" src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('img').hover(function(){
+				var orig = $(this).attr('src');
+				var alt = $(this).attr('data-alt-source');
+				$(this).attr('src',alt);
+				$(this).attr('data-alt-source',orig);
+			}, function(){
+				var orig = $(this).attr('src');
+				var alt = $(this).attr('data-alt-source');
+				$(this).attr('src',alt);
+				$(this).attr('data-alt-source',orig);
+			});
+		});
+
+	</script>
+</head>
+<body>
+	<h1>Technology Founders</h1>
+<div class='pictures'>
+	<img src="img/w0.png" data-alt-source="img/b0.jpg">
+	<img src="img/w1.jpg" data-alt-source="img/b1.jpg">
+	<img src="img/w2.png" data-alt-source="img/b2.jpg">
+	<img src="img/w3.png" data-alt-source="img/b3.jpeg">
+	<img src="img/w4.png" data-alt-source="img/b4.jpg">
+	<img src="img/w5.jpg" data-alt-source="img/b5.png">
+	<img src="img/w6.png" data-alt-source="img/b6.jpg">
+	<img src="img/w7.jpg" data-alt-source="img/b7.jpg">
+	<img src="img/w8.png" data-alt-source="img/b8.jpg">
+	<img src="img/w9.jpg" data-alt-source="img/b9.jpg">
+	<img src="img/w10.jpg" data-alt-source="img/b10.jpg">
+
+
+
+
+
+
+
+</div>
+	
+</body>
+</html>

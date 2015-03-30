@@ -1,0 +1,18 @@
+img{
+	width:500px;
+	height:500px;
+}
+h1{
+	border-bottom:1px solid black;
+	width:600px;
+	font-family: "HelveticaNeue-Light";
+}
+.pictures{
+	width:1000px;
+	height:530px;
+	margin-left:100px;
+	overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+ }
+
